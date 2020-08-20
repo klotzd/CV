@@ -16,7 +16,10 @@ A purified air stream containing o-xylene at low concentrations is forced into c
 <a href="https://ibb.co/WGRDskf"><img src="https://i.ibb.co/rFXbvxH/rdcp.png" alt="rdcp" border="0"></a>
 </p>
 
+<p align="center">
 _Sketch of a riser reactor_ | _the chemical reaction network_ | _differential control volume sketch_
+</p>
+  
 By considering a differential control volume along the height of the cylindrical reactor and assuming radial homogenity, one can derive a suitable 1D model of the reactor. The 6 reacting species (xylene, PA, CO, CO2, O2 and water) and the energy balance yield seven coupled, non-linear ordinary differential equations. As reactant concentration is low, the pressure drop can be sufficiently described by a simple hydrostatic model, which can be decoupled. Specifying the reactor inlet stream conditions leaves an initial value problem in seven ODEs to be integrated numerically.
 
 <img src="https://render.githubusercontent.com/render/math?math=\frac{d\dot{n}_{xyl}}{dh}= -A(1-\epsilon)\rho_c (r_1 + r_2 + r_3) \mathrm{where} r_i=\frac{k_i c_{O_2}^{n_i }b_ic_{xyl} \mathrm{and} k_i=e^{\mathrm{ln}k_{0,i}-\frac{E_{a,i}}{RT}}}{1+b_ic_{xyl}}">
