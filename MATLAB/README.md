@@ -6,24 +6,15 @@ The reactor design part of the project was agreed to be my responsibility, which
 
 The reactor design process was based on the development of a detailed MATLAB simulation of the suggested multi-tubular, fixed bed riser reactor which allowed evaluation of different reactor setups and their key performance metrics. Additionally, capabilities for sensitivity analysis of physical and technical parameters were included to assess both process stability/safety and potential process intensification opportunities.
 
-A short description of the technical specifics and a description of the implementation and the results can be found below.  
+A short summary of the technical specifics and some results can be found below.  
 
-## Quick summary of the technical background:
+## Technical background:
 
 A purified air stream containing o-xylene at low concentrations is forced into contact with a bed of fixed, spherical catalyst pellets (vanadium oxide) while passing through a thin, vertical tube ('riser reactor'). This results in a partial oxidation reaction R1, yielding the desired product PA - while simultanously, undesirable side reactions (complete and partial combustion R2/R3/R4/R5) occur. The energy release of the reaction is countered by circulation of a cooling medium, keeping the outer wall of the reactor tubes at constant temperature. 
 
-<a href="https://ibb.co/Y4CVsfr"><img src="https://i.ibb.co/gb2cKtn/rdcp.png" alt="rdcp" border="0">
+<a href="https://ibb.co/WGRDskf"><img src="https://i.ibb.co/rFXbvxH/rdcp.png" alt="rdcp" border="0"></a>
+_ Sketch of a riser reactor _ | _ the chemical reaction network _ | _ differential control volume sketch _
 
-The reactor can be completely described by a set of differential equations: six mass balances, and energy balance and a pressure drop equation. The applied hydrostatic pressure drop equation can be decoupled and hence does not require a numerical approach, leaving a final set of seven coupled, non-linear ordinary differential equations to be integrated numerically.
+By considering a differential control volume along the height of the cylindrical reactor and assuming radial homogenity, one can derive a suitable 1D model of the reactor. The 6 reacting species (xylene, PA, CO, CO2, O2 and water) and the energy balance yield seven coupled, non-linear ordinary differential equations. As reactant concentration is low, the pressure drop can be sufficiently described by a simple hydrostatic model, which can be decoupled. Specifying the reactor inlet stream conditions leaves an initial value problem in seven ODEs to be integrated numerically.
 
-An exemplary mass balance is shown below to highlight the highly non-linear  character of the resulting set of equations:
-
-$$ \frac{d\dot{n}_{xyl}}{dh}= -A(1-\epsilon)\rho_c (r_1+r_2+r_3)$$
-
-where the chemical rates of reaction $r_i$ are given by classic-surface reaction type terms of the form
-
-$$ r_i=\frac{k_i c_{O_2}^{n_i }b_ic_{xyl}}{1+b_ic_{xyl}} $$
-
-for experimentally determined values of $b_i$ and $n_i$, as well as $k_i$'s given by arrhenius expressions:
-
-$$ k_i=e^{\mathrm{ln}k_{0,i}-\frac{E_{a,i}}{RT}} $$
+<img src="https://render.githubusercontent.com/render/math?math= \frac{d\dot{n}_{xyl}}{dh}= -A(1-\epsilon)\rho_c (r_1+r_2+r_3); r_i=\frac{k_i c_{O_2}^{n_i }b_ic_{xyl} \mathrm{and} k_i=e^{\mathrm{ln}k_{0,i}-\frac{E_{a,i}}{RT}}}{1+b_ic_{xyl}} >
