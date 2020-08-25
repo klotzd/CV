@@ -1,0 +1,61 @@
+---
+title: "R Notebook"
+output: html_notebook
+editor_options: 
+  chunk_output_type: inline
+---
+
+## R Markdown
+
+I imported a detailed list of my listened tracks from "https://benjaminbenben.com/lastfm-to-csv/"
+after tracking my spotify usage for ~ 1 year using LastFM. I'm interested in doing some data exploration on my spotify usage and general music listening behaviour and identifying mood patterns in my choice of music. 
+
+Starting with importing the data and some general info on the dataset:
+
+```{r import, include=FALSE}
+setwd('C:/Users/klotz/Desktop/code/lyrics NLP')              # set working directory
+
+tracklist <- read.csv( 'kinimod21.csv', header = FALSE )
+names(tracklist) <- c( 'artist', 'album', 'title','date' )   # given headers
+
+tracklist$artist <-  as.character(tracklist$artist)          # declare appropriate the headers
+tracklist$album  <-  as.character(tracklist$album)
+tracklist$title  <-  as.character(tracklist$title)
+
+library(lubridate)
+
+tracklist$date    <- dmy_hm(as.character(tracklist$date))    # convert the datetime into various date information formats
+tracklist$month   <- month(tracklist$date)
+tracklist$weekday <- wday(tracklist$date)
+tracklist$time    <- hour(tracklist$date)
+
+print('first entry:')                                        # print some info
+  min(date)
+print('last entry:')
+  max(date)
+print('approximate sample period hence')
+  (max(date)-min(date))
+print('no of tracks recorded')
+  dim(tracklist)[1]
+print('average tracks per day')  
+  round(dim(tracklist)[1]/as.double((max(date)-min(date)), units='days'),2)
+
+```
+
+Using the various date information and the nice economist theme for ggplot2 gives a nice graphic illustration of my daily, weekly and monthly usage patterns:
+
+```{r hourly usage, echo=FALSE}
+library(ggplot2)
+
+hourly <- ggplot(data = tracklist) +
+          geom_bar( aes ( factor ( time ) ), fill = c ('#014d64','#014d64','#014d64','#014d64','#014d64','#014d64','#014d64',
+                                                       '#6794a7','#6794a7','#6794a7','#6794a7','#6794a7','#6794a7','#6794a7',
+                                                       '#6794a7','#6794a7','#6794a7','#6794a7','#6794a7','#6794a7','#6794a7',
+                                                       '#014d64','#014d64','#014d64') ) +
+          coord_polar(start = -0.13, direction = 1) +
+          theme_economist(base_size = 10, base_family = "verdana",
+                  horizontal = TRUE, dkpanel = FALSE) + 
+          theme(axis.title.y = element_blank(), axis.title.x = element_blank(), axis.ticks.x = element_blank(), axis.text.x =             element_text(face="bold"), axis.text.y = element_blank())
+```
+
+
