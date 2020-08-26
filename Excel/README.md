@@ -1,5 +1,4 @@
-# Excel Example: 
-# Modelling the Evolution of the US Electricity Generation Mix until 2050 
+# Excel Example: Modelling the Evolution of the US Electricity Generation Mix until 2050 
 
 This work was part of the techno-economic project in year three of my Chemical Engineering Course. Our task as a group of 9 students was to create a techno-economic analysis and a  consulting-style strategy paper recommending and evaluating different policy scenarios to achieve a 'realistic' level of decarbonisation of an inudstry segment of our choice: we opted for the decarbonisation of US electricity generation.
 
