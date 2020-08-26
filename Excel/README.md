@@ -9,7 +9,7 @@ While every single one of my team members was a fantastic co-worker and contribu
 The goal of the model was to develop a tool that allows to make quantitative predictions about the us electricity generation mix under different carbon tax / tax credit scenarios. The US is one of the most market oriented economies in the world, and hence any model would have to use a paradigm of profit based investment allocation and have no direct governmental intervention in form of nationalised enterprises. It needed to combine current EIA data, micro economic analysis of technological projects and macro economic considerations: 
 
 <p align="center">
-<img src="https://imgbbb.com/images/2020/08/26/tep1.png" alt="tep1.png" border="0" width="300" height="300"/>
+<img src="https://imgbbb.com/images/2020/08/26/tep1.png" alt="tep1.png" border="0" width="900" height="450"/>
 </p>
 
 <p align="center">
