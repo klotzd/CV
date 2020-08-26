@@ -18,7 +18,7 @@ The goal of the model was to develop a tool that allows to make quantitative pre
 
 The iterative procedure calculated for a year **t** can be summarised as
 1. Calculate KPIs (LCOE, ROI, etc) for average investment project of each electricity source subject to  
-    * policy assumptions of scenario 
+    * policy assumptions of current scenario 
     * technological assumptions at year **t**
     * financing assumptions at year **t**
 2. Combine individual KPIs and current ratio of the maximum theoretically usable capacity into a logistically scaled 'investment attractiveness'
