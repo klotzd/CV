@@ -1,4 +1,4 @@
-### MATLAB Example: Catalytic Fixed Bed Reactor (FBR) Design
+# MATLAB Example: Designing a Catalytic Fixed Bed Reactor (FBR)
 
 In the Reactor Design and Control Project (RDCP), a central point of the second year in my chemical engineering MEng course, groups of three students were tasked to design a reactor and a suitable control system for the production of phthalic anhydride (PA) via partial oxidation of o-xylene. 
 
