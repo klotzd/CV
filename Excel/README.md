@@ -9,12 +9,12 @@ While every single one of my team members was a fantastic co-worker and contribu
 The goal of the model was to develop a tool that allows to make quantitative predictions about the us electricity generation mix under different carbon tax / tax credit scenarios. The US is one of the most market oriented economies in the world, and hence any model would have to use a paradigm of profit based investment allocation and have no direct governmental intervention in form of nationalised enterprises. It needed to combine current EIA data, micro economic considerations of technological projects and macro economic developments: 
 
 <p align="center">
-<img src="https://imgbbb.com/images/2020/08/26/tep1.png" alt="tep1.png" border="0" width="75" height="75"/>
+<img src="https://imgbbb.com/images/2020/08/26/tep1.png" alt="tep1.png" border="0" width="200" height="200"/>
 </p>
 
 <p align="center">
- | outline scheme of the model | 
-</p>
+ | 1s111c11111h11111e1111111m111a1111t1111i1111c111111 11111111111111111111111111111111111111111111111111111111outline scheme of the model
+</p>1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111
 
 The iterative procedure calculated for a year **t** can be summarised as
 1. Calculate KPIs (LCOE, ROI, etc) for average investment project of each electricity source under 
