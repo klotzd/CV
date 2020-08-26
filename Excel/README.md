@@ -1,4 +1,4 @@
-# Excel Example: Modelling the 2050-Evolution of the American Electricity Generation Mix under different Policy Assumptions
+# Excel Example: Modelling the Evolution of the US Electricity Generation Mix until 2050 
 
 This work was part of the techno-economic project in year three of my Chemical Engineering Course. Our task as a group of 9 students was to create a techno-economic analysis and a  consulting-style strategy paper recommending and evaluating different policy scenarios to achieve a 'realistic' level of decarbonisation of an inudstry segment of our choice: we opted for the decarbonisation of US electricity generation.
 
@@ -6,15 +6,15 @@ While every single one of my team members was a fantastic co-worker and contribu
 
 ## The background
 
-The goal of the model was to develop a tool that allows to make quantitative predictions about the us electricity generation mix under different carbon tax / tax credit scenarios. The US is one of the most market oriented economies in the world, and hence any model would have to use a paradigm of profit based investment allocation and have no direct governmental intervention in form of nationalised enterprises. It needed to combine current EIA data, micro economic considerations of technological projects and macro economic developments: 
+The goal of the model was to develop a tool that allows to make quantitative predictions about the us electricity generation mix under different carbon tax / tax credit scenarios. The US is one of the most market oriented economies in the world, and hence any model would have to use a paradigm of profit based investment allocation and have no direct governmental intervention in form of nationalised enterprises. It needed to combine current EIA data, micro economic analysis of technological projects and macro economic considerations: 
 
 <p align="center">
 <img src="https://imgbbb.com/images/2020/08/26/tep1.png" alt="tep1.png" border="0" width="200" height="200"/>
 </p>
 
 <p align="center">
- | 1s111c11111h11111e1111111m111a1111t1111i1111c111111 11111111111111111111111111111111111111111111111111111111outline scheme of the model
-</p>1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111
+ schematic outline of the model
+</p>
 
 The iterative procedure calculated for a year **t** can be summarised as
 1. Calculate KPIs (LCOE, ROI, etc) for average investment project of each electricity source under 
