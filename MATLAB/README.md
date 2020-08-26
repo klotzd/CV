@@ -29,3 +29,17 @@ By considering a differential control volume along the height of the cylindrical
 <p align="center">
  concentration profiles  |  temperature profile |  KPI: PA-yield profile 
 </p>
+
+The optimal length in terms of PA-yield for the choosen diameter turns out to 2.72m, at which 4.9% of the theoretically possible amount of product has been formed; the low performance can primarily attributed to the parasitic side reactions which combust the formed product should it remain in the reactor for too long. The temperature profile shows a stark hot-spot temperature peak shortly after the inlet due to the given specification of wall temperature and inlet temperatue. Initially heat is transfered from the wall into the fluid, which accelerates the reaction and hence the energy release inside the reactor - a phenomenon which makes the ODE problem stiff and can cause the solver to break down undere certain permutations of conditions due to unphysically high temperature gradients.
+
+
+<p align="center">
+<img src="https://imgbbb.com/images/2020/08/26/rdcp47a66ee578c0e03c5.png" alt="rdcp47a66ee578c0e03c5.png" border="0" />
+</p>
+
+<p align="center">
+ global PA yield  |  variance based sensitivity testing |  R1/R2 second order effects 
+</p>
+
+
+The low optimum yield inidicates a need for a recycle system and or improvements of the catalytic properties of the fixed bed pellets. Simulations of some advanced reactor configurations and implementation of a recycle system enabled achievement of a global PA-yield of 15%. Extensive OAT and variance based multivariate sensitivity analysis was conducted on the physical parameters of the catalyst and the reaction to give direction for future research efforts and assess influence of parameter uncertainty. For kinetic parameters a not unsual uncertainty of 5%, particulary in activation energy of R1 and R2, places PA yield in a possible range of 7.5-30% and warrants further experimental clarification of precision. Variance based sensitvity testing indicated that an improvement of catalytic properties would have the best pay off if a reduction of low temperature rate of R2 would be achievable.
