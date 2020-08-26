@@ -9,20 +9,20 @@ While every single one of my team members was a fantastic co-worker and contribu
 The goal of the model was to develop a tool that allows to make quantitative predictions about the us electricity generation mix under different carbon tax / tax credit scenarios. The US is one of the most market oriented economies in the world, and hence any model would have to use a paradigm of profit based investment allocation and have no direct governmental intervention in form of nationalised enterprises. It needed to combine current EIA data, micro economic considerations of technological projects and macro economic developments: 
 
 <p align="center">
-<img src="https://imgbbb.com/images/2020/08/26/tep1.png" alt="tep1.png" border="0" />
+<img src="https://imgbbb.com/images/2020/08/26/tep1.png" alt="tep1.png" border="0" width="75" height="75"/>
 </p>
 
 <p align="center">
  | outline scheme of the model | 
 </p>
 
-The iterative procedure calculated for a year $t$ can be summarised as
+The iterative procedure calculated for a year **t** can be summarised as
 1. Calculate KPIs (LCOE, ROI, etc) for average investment project of each electricity source under 
-* policy assumptions of scenario
-* technological assumptions year $t$
-* financing assumptions year $t$
+    policy assumptions of scenario
+    technological assumptions year **t**
+    Financing assumptions year **t**
 2. Combine individual KPIs and current ratio of the maximum theoretically usable capacity into a logistically scaled 'investment attractiveness'
-3. Calculate the total investment potential of year $t+1$ by adding ordinary decomissioning, closure of loss-making plants and projected demand growth
-4. Allocate $t+1$ investment potential according to 'investment attractiveness' and update plant stock
-5. Calculate GHG emissions for year $t+1$
+3. Calculate the total investment potential of year **t+1** by adding ordinary decomissioning, closure of loss-making plants and projected demand growth
+4. Allocate **t+1** investment potential according to 'investment attractiveness' and update plant stock
+5. Calculate GHG emissions for year **t+1**
 6. Repeat
