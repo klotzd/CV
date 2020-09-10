@@ -9,7 +9,7 @@ These are some python projects completed over the COVID summer. Most are still b
 </p>
 
 <p align="center">
-  equity to total assets vs log total assets  | enet interest margin vs log total assets
+  equity to total assets vs log total assets  | net interest margin vs log total assets
 </p>
 
 Assignment project in "ML and RL for Finance", Coursera. Using FDIC call report data and macro economic outlook variables to predict historic US bank defaults. Using a (favourably, explained in notebook how) downsampled dataset the classifier achieves AUC 0.986 on 330 unseen test samples.
@@ -38,6 +38,12 @@ Additionally using a custom signal classification kernel and b-spline regression
 ## Example 3: MolecularDynamics - Time oriented, hard disc 2D molecular dynamics simulation of ideal gases
 
 Simple implementation of a time-oriented simulation of non-interacting hard disks - a (two-dimensional) ideal gas. Simulated pressure (1000 particles) within 2% of ideal gas law prediction. Various initalisation functions (random, maxwellian, gaussian) and built in animation and analysis functions. Currently working on enabling reactive multi-species mixtures to simulate the fundamental kinetic reaction orders from first principles.
+p align="center">
+  <img src="https://github.com/klotzd/CV/blob/master/Python/img/boltzmannconvergence_gif.gif" width="256" title="Github Logo">
+</p>
+
+
+
 
 <p align="center">
   
