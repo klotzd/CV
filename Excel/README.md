@@ -26,3 +26,8 @@ The iterative procedure calculated for a year **t** can be summarised as
 4. Allocate **t+1** investment potential according to 'investment attractiveness' and update plant stock
 5. Calculate GHG emissions for year **t+1**
 6. Repeat
+
+## Some Results
+<p align="center">
+<a href="https://ibb.co/vDRgbLD"><img src="https://i.ibb.co/V35rdM3/tcredit.png" alt="tcredit" border="0"></a>
+</p>
