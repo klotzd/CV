@@ -39,9 +39,9 @@ Additionally using a custom signal classification kernel and b-spline regression
 
 Simple implementation of a time-oriented simulation of non-interacting hard disks - a (two-dimensional) ideal gas. Simulated pressure (1000 particles) within 2% of ideal gas law prediction. Various initalisation functions (random, maxwellian, gaussian) and built in animation and analysis functions. Currently working on enabling reactive multi-species mixtures to simulate the fundamental kinetic reaction orders from first principles.
 
-<p align="center">
+
 ![alt text](https://github.com/klotzd/CV/blob/master/Python/img/boltzmannconvergence_gif.gif)
-</p>
+
 <p align="center">
   convergence towards maxwell-boltzmann distribution of gas initialised with random uniform $v_x, v_y$
 </p>
