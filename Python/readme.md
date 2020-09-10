@@ -45,6 +45,6 @@ Simple implementation of a time-oriented simulation of non-interacting hard disk
   convergence towards maxwell-boltzmann distribution of gas initialised with random uniform velocity vector components
 </p>
 
-## Example 4: WineAnalysis - Webscraping and analysi of ~2M wines with reviews, tasting notes and food pairings
+## Example 4: WineAnalysis - Webscraping and analysis of ~2M wines with reviews, tasting notes and food pairings
 
 Scraped approx 2 million wine entries from the wine review app vivino. Analysis and data visualisation of review ratings, popularity, tasting notes and suggested food pairings. Start of larger project intending to combine the primary wine information with geological and weather data to predict wine quality of future harvests. 
