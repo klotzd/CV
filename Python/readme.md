@@ -42,7 +42,7 @@ Simple implementation of a time-oriented simulation of non-interacting hard disk
   <img src="https://github.com/klotzd/CV/blob/master/Python/img/boltzmannconvergence_gif.gif" width="500">
 </p>
 <p align="center">
-  convergence towards maxwell-boltzmann distribution of gas initialised with random uniform $v_x, v_y$
+  convergence towards maxwell-boltzmann distribution of gas initialised with random uniform velocity vector components
 </p>
 
 ## Example 4: WineAnalysis - Webscraping and analysi of ~2M wines with reviews, tasting notes and food pairings
