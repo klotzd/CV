@@ -1,10 +1,10 @@
 # Hello, thanks for taking the time to look at some of my projects!
 
-I created this repository over this summer in order to support my CV by showcaseing some of my projects.
+I created this repository over this summer to support my CV and illustrate some of my skills.
 
-Most of the work in here was done over the summer holidays 2020. Several projects are still under further development but have reached a stage where I can present some results. 
+Most of the work in here was done over the summer holidays 2020. Several projects are still under further development, but have reached a stage where I can present some results. 
 
-If you want to have another look at my full CV you can also find it [here](https://1drv.ms/b/s!ApEGPTbuEH9YmG9QJcm3-TaaVJJT?e=fRKI80) or contact me by [email](klotz.dominik@live.com).
+If you want to have another look at my full CV you can also find it [here](https://1drv.ms/b/s!ApEGPTbuEH9YmG9QJcm3-TaaVJJT?e=fRKI80) or contact me by [email](mailto:klotz.dominik@live.com).
 
 ## Summary / Table of Contents
 
