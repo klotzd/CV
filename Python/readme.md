@@ -25,7 +25,7 @@ Assignment project in "ML and RL for Finance", Coursera. Using FDIC call report 
 Can the outcome of a london club's home match be inferred from the entry/exit counts at the closest underground station?
 Yes, it can. With about 70% accuracy (AUC ~ 0.75) using a neural network with one hidden layer.
 
-Additionally using a custom signal classification kernel and b-spline regressions tricks, this can be boosted to 0.75% accuracy on a MLP (AUC 0.8) and RF classifier:
+Additionally using a custom signal classification kernel and b-spline regressions tricks, this can be boosted to 75% accuracy on a MLP (AUC 0.8) and RF classifier:
 
 <p align="center">
 <a href="https://ibb.co/P58dwxC"><img src="https://i.ibb.co/nDSFzrk/kernels.png" alt="kernels" border="0" width="1000"></a>
